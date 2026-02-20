@@ -213,7 +213,7 @@ export function TodoBoard() {
         </header>
 
         <Card className="py-0">
-          <CardHeader className="border-b">
+          <CardHeader className="border-b pt-4">
             <CardTitle>新增事项</CardTitle>
             <CardDescription>输入标题与详情后加入待办列</CardDescription>
           </CardHeader>

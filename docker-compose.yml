@@ -5,10 +5,11 @@ services:
       dockerfile: Dockerfile
     container_name: todo-whiteboard-app
     ports:
-      - "3000:3000"
+      - "3010:3010"
     environment:
       NODE_ENV: production
-      PORT: 3000
+      PORT: 3010
+    user: "1000:1000"
     restart: unless-stopped
     volumes:
-      - ./tasks.json:/app/data/tasks.json
+      - ./data:/app/data
