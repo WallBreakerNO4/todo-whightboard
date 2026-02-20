@@ -276,7 +276,7 @@ export function TodoBoard() {
                             setDialogOpen(true)
                           }}
                         >
-                          <p className="mb-1 font-medium">详细内容（点击查看/编辑）</p>
+                          <p className="mb-1 font-medium">详细内容</p>
                           <p
                             className="whitespace-pre-wrap"
                             style={{
