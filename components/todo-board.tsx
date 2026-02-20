@@ -251,7 +251,7 @@ export function TodoBoard() {
 
             return (
               <Card key={column.key} className="bg-background/70 py-0">
-                <CardHeader className="border-b">
+                <CardHeader className="border-b pt-4">
                   <div className="flex items-center justify-between gap-2">
                     <CardTitle>{column.label}</CardTitle>
                     <Badge variant="secondary">{items.length}</Badge>
